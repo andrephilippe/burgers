@@ -1,0 +1,55 @@
+.burger-in-menu{
+    list-style-type: none;
+    margin:  auto auto;
+    height: 450px;
+    width: 250px;
+    min-width: 250px;
+    padding: 40px 20px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+    display: table;
+}
+
+.burger-in-menu li{
+    position: relative;
+    width: 100%;
+}
+
+.burger-in-menu-ingredient img{
+    width: 100%;
+}
+
+.burger-in-menu-monted{
+    z-index: 5;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.burger-in-menu-monted ul{
+    display: inline-block;
+}
+
+.burger-in-menu-name{
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.burger-in-menu-actions{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 50;
+}

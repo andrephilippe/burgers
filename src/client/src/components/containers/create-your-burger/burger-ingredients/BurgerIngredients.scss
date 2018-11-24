@@ -1,0 +1,17 @@
+#burger-ingredients{
+    list-style-type: none;
+    margin:  auto auto;
+}
+
+#burger-ingredients li{
+    position: relative;
+}
+
+.burger-ingredient{
+    width: 300px;
+    transition: all 1s;
+}
+
+.burger-ingredient img{
+    width: 100%;
+}

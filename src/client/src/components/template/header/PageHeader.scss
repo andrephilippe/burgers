@@ -1,0 +1,57 @@
+@import "../../../assets/style/variables.scss";
+
+.app-header {
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: $navbar-heigth;
+    line-height: $navbar-heigth;
+    overflow: hidden;
+    position: relative;
+}
+
+#navbar-logo {
+    width: $navbar-logo-width;
+    margin: auto $navbar-logo-margin-left-rigth;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.app-header nav {
+    float:left;
+    margin-left: calc(#{$navbar-logo-width} + #{$navbar-logo-margin-left-rigth} * 2);
+    width: calc(100% - #{$navbar-logo-width} - #{$navbar-logo-margin-left-rigth} * 2);
+    background-color: #FFFFFF;
+}
+
+.app-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.app-header nav ul li {
+    float: left;
+}
+
+.app-header nav ul li * {
+    display: inline-block;
+    color: #00659a;
+    text-align: center;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.app-header nav ul li a:hover {
+    background-color: #00659a;
+    color: #FFFFFF;
+}
+
+.app-header nav .active {
+    border-bottom: 5px solid #00659a;
+    height: $navbar-heigth;
+    box-sizing: border-box;
+}

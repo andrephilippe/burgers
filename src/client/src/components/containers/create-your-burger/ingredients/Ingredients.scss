@@ -1,0 +1,36 @@
+#ingredients{
+    text-align: center;
+    height: 100%;
+    margin: auto auto;
+}
+
+#ingredients h1{
+    padding: 35px 0px;
+    color: #ffffff;
+    font-size: 31px;
+}
+
+#ingredients ul{
+    list-style-type: none;
+    max-height: 50%;
+}
+
+.ingredient{
+    margin: auto auto;
+    width: 150px;
+    filter: opacity(0.5);
+    z-index: 100;
+    transition: all 1s;
+}
+
+.ingredient:hover{
+    filter: opacity(1);
+}
+
+.ingredient:active{
+    filter: opacity(1);
+}
+
+.ingredient img{
+    width: 100%;
+}

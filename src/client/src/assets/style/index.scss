@@ -1,0 +1,25 @@
+@import "reset";
+@import "./custom.scss";
+@import "./fonts.scss";
+@import "./spinner.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: rgba(0,0,0,0.3);
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.3);
+}

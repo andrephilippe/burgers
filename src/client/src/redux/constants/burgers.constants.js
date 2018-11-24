@@ -1,0 +1,1 @@
+export const SET_BURGERS_MENU = 'SET_BURGERS_MENU';

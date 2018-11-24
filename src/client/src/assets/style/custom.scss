@@ -1,0 +1,154 @@
+@import './variables.scss';
+
+#app-route{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    min-height: calc(100vh - #{$navbar-heigth}- #{$footer-height});
+    top: 0;
+    left: 0;
+}
+
+.title{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+}
+
+.page-header{
+    margin: 20px 0 20px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-padding{
+    padding: 10px;
+}
+
+.container-inline{
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.container-flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-table{
+    display: table;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.float-right{
+    float: right;
+}
+
+.content{
+    margin: auto auto;
+    background-color: rgba(36, 36, 36, 0.84);
+    padding: 15px;
+    border-radius: 7.5px;
+    overflow: hidden;
+    color: white;
+    overflow-y: auto;
+}
+
+.label{
+    padding:0;
+    background-color: transparent;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    font-size: 18px;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.blur{
+    filter: blur(5px);
+}
+
+.hidden{
+    display: none;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ .text-left{
+    text-align: left;
+ }
+
+ .text-right{
+    text-align: right;
+ }
+
+ .form-control{
+     position: relative;
+ }
+
+.form-control-feedback-with-label{
+    top: 25px !important;
+ }
+
+.form-control-feedback-without-label{
+    top: 0px !important;
+ }
+
+.form-control-feedback-with-label, .form-control-feedback-without-label{
+    z-index: 2;
+ }
+
+.full-width{
+     width: 100%;
+ }
+
+.full-height{
+    min-height: 100%;
+}
+
+.swal2-popup{
+     width: 50rem !important;
+     font-size: 1.4rem !important;
+ }
+
+.toast-top-right{
+    top: calc(#{$navbar-heigth} + 12px) !important;
+}
+
+.padding{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    background-color: transparent;
+    margin-bottom: 0px;
+}

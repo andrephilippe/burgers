@@ -1,0 +1,37 @@
+#cart{
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid #FFFFFF;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    margin: 5% 0px;
+    padding: 25px;
+    position: relative;
+}
+
+#cart-total{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#cart-total span{
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+}
+
+#cart-my-ingredients ul{
+    border-top: 1px solid #FFFFFF;
+    padding: 20px 0px;
+}
+
+#cart-my-promotions ul{
+    border-top: 1px solid #FFFFFF;
+    padding: 20px 0px;
+}
