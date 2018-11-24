@@ -1,7 +1,7 @@
 # DEXTRABURGERS
 Que tal montar o seu próprio Hambúrguer!?
 
-![Output sample] (https://i.imgur.com/VLUQhJg.gif)
+![Output sample](https://i.imgur.com/VLUQhJg.gif)
 
 ## Começando
 Essas instruções farão com que você tenha uma cópia do projeto em execução na sua máquina local.
