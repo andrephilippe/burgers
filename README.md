@@ -62,7 +62,7 @@ Testes que são executados:
 * Axios - Biblioteca JavaScript para cliente HTTP
 * React DnD Beautiful - Biblioteca JavaScript para fazer o "arrastar/soltar"
 * Toastr - Biblioteca JavaScript para mensagens ao usuário
-* Bootstrap - Utilizado principalemnte a parte de Grid para responsividade
+* Bootstrap - Utilizado principalmente a parte de Grid para responsividade
 * Jest e Enzyme - Utilitários para teste
 
 ## Autor
