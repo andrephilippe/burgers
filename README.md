@@ -1,5 +1,7 @@
-# Burgers
+# DEXTRABURGERS
 Que tal montar o seu próprio Hambúrguer!?
+
+![Output sample] (https://i.imgur.com/VLUQhJg.gif)
 
 ## Começando
 Essas instruções farão com que você tenha uma cópia do projeto em execução na sua máquina local.
@@ -36,6 +38,7 @@ Série de passo a passo para que você consigar rodar os testes:
 2. Execute o comando "npm i" para instalar as dependências (caso ainda não tenha instalado);
 3. Execute o comando "npm test" para rodar o teste do front-end
 ```
+![alt text](https://i.imgur.com/DwqnRK6.png)
 
 ### Testes executados
 
